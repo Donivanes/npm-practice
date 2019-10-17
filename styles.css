@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 15px 0;
+  width: 100%;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.heart {
+  padding-right: 20px;
+}
+
+.top-left {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header {
+  max-width: 100%;
+  font-size: 1em;
+  background-color: rgb(36, 91, 123);
+  padding: 0;
+  margin: 0;
+}
+
+
+.headerlogo {
+  max-width: 10%;
+  margin-right: 10px;
+  display: inline;
+  float: left;
+  margin-top: 10px;
+ 
+}
+
+.headerlogo img {
+  width: 75%;
+  height: auto;
+  margin-left: 30px;
+}
+
+.searchbar {
+  width: 75%;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  margin-top: 10px;
+}
+
+.searchbar input {
+  font-size: 1em;
+  width: 90%;
+  background-color: rgb(31, 82, 111);
+  padding: 15px 10px;
+  border-color: rgba(255,255,255,0.2);
+  border-width: 1px;
+  border-style: solid;
+  color: rgba(255,255,255,0.8);
+  }
+
+.searchbar button {
+  font-size: 1em;
+  width: 5%;
+  background-color: rgb(31, 82, 111);
+  padding: 15px 0px;
+  border-color: rgba(255,255,255,0.2);
+  border-width: 1px;
+  border-style: solid;
+  color: rgba(255,255,255,0.8);
+}
+
+.login {
+  max-width: 10%;
+  float: left;
+  display: inline-block;
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.login p{
+  color: rgba(255,255,255,0.8);
+}
+
+.login a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+
+.bear {
+  display: inline-block;
+  float: left;
+  margin-left: 8px;
+  margin-top: 15px;
+}
+
+.bear img{
+  width: 40px;
+  height: auto;
+}
+
+.headerphoto{
+  padding: 90px 20px 80px 30px;
+  background-image: url(images/city-scape.svg);
+  max-width: 100%;
+
+}
+
+.headerbody {
+  width: 50%;
+  padding-left: 100px;
+  color: white;
+}
+
+.headerbody h1 {
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.headerbody p {
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.headerbody button {
+  margin-top: 10px;
+  display: inline-block;
+  background-color: rgb(240, 146, 51);
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  padding: 8px 26px;
+  vertical-align: middle;
+}
+
+.one {
+  max-width: 100%;
+  padding: 100px 0px 120px 120px;
+  background-color: rgb(39, 53, 71);
+}
+
+.onephoto {
+  width: 50%;
+  display: inline-block;
+}
+
+.onetext {
+  width: 40%;
+  display: inline-block;
+  padding-left: 30px;
+}
+
+.onetext h2 {
+  font-size: 36px;
+  color: white;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.onetext li {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+.onetext ul {
+  padding-left: 20px;
+}
+
+.onetext p {
+  color: white
+}
+
+.onetext a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.onetext button {
+  background-color: rgb(172, 46, 45);
+  color: white;
+  border-radius: 20px;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px 26px;
+}
+
+.two {
+  background-image: url(images/forklift.svg);
+  background-size: contain;
+  background-position: 50% 0;
+  padding: 60px 20px 180px 20px;
+}
+
+.twotext {
+  margin: 40px 50px 20px 0px;
+  padding: 0 100px;
+}
+
+.two h2 {
+    font-size: 36px;
+    color: white;
+    font-weight: 200;
+    margin: 10px 0;
+}
+
+.two p {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 10px;
+  font-weight: 300;
+  padding: 10px 0;
+}
+
+.two button {
+  background-color: rgb(40, 56, 72);
+  color: white;
+  border-radius: 20px;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 8px 26px;
+}
+
+.three {
+  padding: 40px 10px;
+}
+
+.three h2 {
+  color: rgb(55, 61, 72);
+  font-size: 36px;
+  font-weight: 300;
+  margin: 20px 0;
+  padding: 4px 0;
+  text-align: center;
+}
+
+.three p {
+  color: rgb(109, 121, 134);
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.three h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(55, 61, 72);
+  margin: 10px 0;
+  text-align: center;
+}
+
+.three a {
+  color: rgb(209, 80, 79);
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.threecolumns {
+  width: 25%;
+  float: left;
+  padding: 20px;
+  margin-left: 80px;
+}
+
+.threecolumns img {
+  display: block;
+  margin: auto;
+}
